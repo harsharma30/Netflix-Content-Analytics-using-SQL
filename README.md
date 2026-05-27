@@ -1,7 +1,7 @@
 # <p align="center">Netflix Shows and Movies Project</p>
 # <p align="center">![Pic](Images/net.jpg)</p>
 
-**Tools Used:** Excel, MySQL, Tableau
+**Tools Used:** Excel, MySQL
 
 [Datasets Used](https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv)
 
@@ -28,7 +28,7 @@ LIMIT 10
 ```
 Result: 
 
-![Q1](https://i.ibb.co/6mQWCw9/Screen-Shot-2023-07-09-at-9-38-11-PM.png)
+![Q1](Images/OutPut/one.png)
 
 - Top 10 Shows
 ```mysql
@@ -43,7 +43,7 @@ LIMIT 10
 ```
 Result: 
 
-![Q2](https://i.ibb.co/QppHsN2/Screen-Shot-2023-07-09-at-9-45-58-PM.png)
+![Q2](Images/OutPut/two.png)
 
 - Bottom 10 Movies
 ```mysql
@@ -57,7 +57,7 @@ LIMIT 10
 ```
 Result: 
 
-![Q3](https://i.ibb.co/tMXV1yp/Screen-Shot-2023-07-09-at-9-47-24-PM.png)
+![Q3](Images/OutPut/three.png)
 
 - Bottom 10 Shows
 ```mysql
@@ -71,7 +71,7 @@ LIMIT 10
 ```
 Result: 
 
-![Q4](https://i.ibb.co/Y7Qjvg5/Screen-Shot-2023-07-09-at-9-49-36-PM.png)
+![Q4](Images/OutPut/four.png)
 
 An IMDB score is a widely recognized measure of the overall quality and popularity of a movie or show. The top 10 movies and shows stood out for their exceptional IMDB scores, indicating that they are highly regarded by viewers. These titles have likely garnered significant acclaim and positive reviews, contributing to their high rankings within the Netflix library. Viewers who are seeking quality content would find these selections very appealing. On the other hand, the bottom 10 movies and shows had lower IMDB scores. While these entries may not have resonated as strongly with audiences, it's important to note that many factors influence these rankings such as individual preferences, weak plot, poor acting, and low-quality production. By uncovering the top and bottom performers based on IMDB scores, this project sheds light on the varying levels of audience reception and highlights titles that are likely to be well-received and those that may have room for improvement. These findings can provide valuable insights for viewers seeking highly-rated content and can serve as a basis for further analysis and decision-making for Netflix's audience recommendations. 
 
@@ -86,7 +86,7 @@ ORDER BY decade;
 ```
 Result: 
 
-![Q5](https://i.ibb.co/8dTzVZ3/Screen-Shot-2023-07-09-at-10-02-18-PM.png)
+![Q5](Images/OutPut/five.png)
 
 The results of the SQL query provide a fascinating insight into the distribution of movies and shows across different decades in Netflix's library. The data reveals a significant shift in content availability over time, with a notable increase in the number of titles from the 2000s onwards. Starting from the earlier decades, the 1940s-1980s showcase a small fraction of the total entries, suggesting that Netflix's collection from these decades is relatively limited. The 1990s demonstrate a large surge in offerings, with 121 titles. However, the true turning point in Netflix's library occurs in the 2010s with a remarkable 3,304 movies and shows from this decade. This abundance highlights Netflix's dedication to featuring contemporary content that aligns with current trends and audience preferences.
 
@@ -103,7 +103,7 @@ ORDER BY avg_imdb_score DESC
 ```
 Result: 
 
-![Q6](https://i.ibb.co/SvJyjgF/Screen-Shot-2023-07-09-at-10-16-52-PM.png)
+![Q6](Images/OutPut/six.png)
 
 ```mysql
 SELECT age_certification, 
@@ -117,7 +117,7 @@ LIMIT 5;
 ```
 Results: 
 
-![Q7](https://i.ibb.co/T0f5cNq/Screen-Shot-2023-07-09-at-10-20-23-PM.png)
+![Q7](Images/OutPut/seven.png)
 
 The first query focused on the average IMDB scores associated with each age certification, revealing interesting trends in audience ratings. According to the data, TV-14 emerges as the age certification with the highest average IMDB score of 6.71. This suggests that content designated for viewers aged 14 and older tends to receive relatively favorable ratings. The age certification TV-G obtains an average score of 6.01, signaling the appreciation for content suitable for all audiences. On the other hand, the age certifications R and TV-Y, each with average scores of 6, demonstrate that while they may have lower ratings, there is still a substantial audience that finds enjoyment in these respective categories.
 
@@ -136,7 +136,7 @@ LIMIT 10;
 ```
 Result:
 
-![Q8](https://i.ibb.co/VWrgd8m/Screen-Shot-2023-07-10-at-12-25-40-PM.png)
+![Q8](Images/OutPut/eight.png)
 
 - Top 10 most common genres for SHOWS
 ```mysql
@@ -150,7 +150,7 @@ LIMIT 10;
 ```
 Result: 
 
-![Q9](https://i.ibb.co/P59s4X7/Screen-Shot-2023-07-10-at-12-27-41-PM.png)
+![Q9](Images/OutPut/nine.png)
 
 - Top 3 most common genres OVERALL
 ```mysql
@@ -164,7 +164,7 @@ LIMIT 3;
 ```
 Result: 
 
-![Q10](https://i.ibb.co/qMvMBGf/Screen-Shot-2023-07-10-at-12-30-04-PM.png)
+![Q10](Images/OutPut/ten.png)
 
 By analyzing the frequency of genres, we can gain a better understanding of the content that dominates the platform and the preferences of its audience. Starting with movies, the first query reveals the top 10 most common genres. Comedy emerges as the most popular genre with a total of 384 movies, reflecting its widespread appeal. Following closely behind are documentation with 230 movies and drama with 224 movies, indicating the significance of these genres in Netflix's movie collection. Combinations of genres also feature prominently, with comedy + documentation and comedy + drama occupying the fourth and fifth positions respectively. The presence of drama + romance, drama + comedy, and comedy + romance further emphasizes the audience's likeness for movies that blend multiple genres. These findings highlight the diverse range of movie genres available on Netflix and the platform's commitment to catering to a wide array of preferences.
 
