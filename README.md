@@ -1,4 +1,4 @@
-# <p align="center">Netflix Shows and Movies Project</p>
+# <p align="center">Netflix Content Analytics using SQL</p>
 # <p align="center">![Pic](Images/net.jpg)</p>
 
 **Tools Used:** Excel, MySQL
